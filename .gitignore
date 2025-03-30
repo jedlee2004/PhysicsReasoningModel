@@ -1,0 +1,6 @@
+model
+venv
+.vscode
+datasets/
+archive/
+.env

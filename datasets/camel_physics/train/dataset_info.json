@@ -1,0 +1,54 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "physics",
+  "dataset_size": 51650490,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/camel-ai/physics@a7a962cb4da69bc7c9d1a41231066cffc5eec93d/physics.zip": {
+      "num_bytes": 23544181,
+      "checksum": null
+    }
+  },
+  "download_size": 23544181,
+  "features": {
+    "role_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic;": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sub_topic": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "message_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "message_2": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 75194671,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 51650490,
+      "num_examples": 20000,
+      "dataset_name": "physics"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

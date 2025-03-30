@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "alpaca_physics_dataset",
+  "dataset_size": 50997178,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Akul/alpaca_physics_dataset@66ed27fc893ba7cfb383b974490e2a43a71868d0/alpaca_physics_dataset.csv": {
+      "num_bytes": 50908093,
+      "checksum": null
+    }
+  },
+  "download_size": 50908093,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 101905271,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 50997178,
+      "num_examples": 19999,
+      "dataset_name": "alpaca_physics_dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

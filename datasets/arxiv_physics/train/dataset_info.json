@@ -1,0 +1,42 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "arxiv-physics",
+  "dataset_size": 21113244,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/gallen881/arxiv-physics@9e407f17bb00cee65b18ac0843056283e5b534c1/data/train-00000-of-00001-5bba4a271402bdbb.parquet": {
+      "num_bytes": 11217441,
+      "checksum": null
+    }
+  },
+  "download_size": 11217441,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 32330685,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 21113244,
+      "num_examples": 30231,
+      "dataset_name": "arxiv-physics"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

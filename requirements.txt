@@ -1,0 +1,14 @@
+
+numpy
+bitsandbytes
+streamlit
+torch
+torchvision
+torchaudio
+accelerate
+transformers
+peft
+datasets
+huggingface_hub
+python-dotenv
+scikit-learn
